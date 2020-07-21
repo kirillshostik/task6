@@ -1,0 +1,40 @@
+.employeeContainer {
+    margin-bottom: 50px;
+}
+
+.employeeContainer:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 1px solid #282c34;
+}
+
+.employee {
+    margin: 0 auto;
+    display: flex;
+    width: 300px;
+}
+
+.delete {
+   margin-left: auto;
+    align-self: center;
+}
+
+.addEmployeeForm {
+    margin: 0 auto;
+    width: 250px;
+    font-size: 18px;
+}
+
+.addEmployeeForm p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.addEmployeeForm div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
